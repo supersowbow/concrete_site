@@ -25,3 +25,5 @@ Menu: Home, About Us, Services, Gallery, Contact
         </ul>
       </div>
  </nav><!-- End Menu -->
+=========================
+when screen gets >768px, add class nav to #navbarTogglerDemo1 and remove class "nav" from #menu

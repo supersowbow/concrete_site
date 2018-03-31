@@ -6,6 +6,10 @@ li {
     list-style-type: none;
 }
 
+#header-container {
+    opacity: 0.9;
+}
+
 #header-container a {
     color: #ffb200;
     text-decoration: none;
@@ -21,21 +25,21 @@ li {
 }
 
 header {
-    background-image: url(../img/contruction-banner.jpg);
+    background-image: url(../img/construction-night.png);
     background-size: cover;
     height:100vh;
     min-height:400px;
-
-}
-
-.scrolled {
-    background-color: #333333;
-    opacity: 0.8;
 }
 
 #site-name {
     font-size: 1.4rem;
+    font-weight: bold;
 }
+
+.scrolled {
+    background-color: #333333;
+}
+
 
 /*=====================================
 Change Menu Icon Color
@@ -49,13 +53,19 @@ Change Menu Icon Color
 Media Queries
 =========================================================*/
 
+@media (max-width: 311px) {
+    #site-name {
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 768px) {
     #header-container {
         background-color: #333333;
         width: 100%;
     }
 
-    
+
 
 
 }
@@ -64,6 +74,7 @@ Media Queries
     #toggleButton {
         display: none;
     }
+
     #header-container {
         color: #ffb200;
         text-decoration: none;

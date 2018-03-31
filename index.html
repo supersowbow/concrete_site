@@ -18,62 +18,39 @@
       </header>
       <nav>
           <!-- Header Container -->
-          <div id="header-container" class="container fixed-top">
+          <div id="header-container" class="container-fluid fixed-top justify-content-md-between">
             <div class="row">
-                <div class="col d-flex flex-row justify-content-between">
+                <div class="col-12 col-md-4 d-flex flex-row">
                     <!-- Logo -->
                       <a href="index.html"><img id="logo" src="img/logo.png" class="" alt="construction-logo"></a>
                     <!-- Site Name -->
-                      <a id="site-name" class="mr-0 pl-1 pr-1" href="#">Stamp Concrete</a>
+                      <a id="site-name" class="mt-1 mr-0 pl-1 pr-1" href="index.html">Stamp Concrete</a>
                     <!-- Menu Button -->
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <button id=toggleButton  class="navbar-toggler float-sm-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                       </button>
                 </div>
+                <!-- Menu -->
+                <div id="navbarTogglerDemo01" class="collapse d-md-flex flex-md-row col-12 col-md-8">
+                    <ul id="menu" class="nav d-flex flex-column flex-md-row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <!-- Menu -->
-            <div id="navbarTogglerDemo01" class="collapse navbar-collapse">
-                <ul class="nav d-flex flex-column justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-
-            <!-- Menu
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="d-flex justify-content-center flex-column d-lg-flex flex-lg-row pl-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div> End Menu -->
           </div>
       </nav>
       <main>
