@@ -1,0 +1,59 @@
+body {
+    background-color: #f2f2f2;
+}
+
+li {
+    list-style-type: none;
+}
+
+#header-container a {
+    color: #ffb200;
+    text-decoration: none;
+}
+
+#header-container a:hover {
+    background-color: gray;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    background-image: url(../img/contruction-banner.jpg);
+    background-size: cover;
+    height:100vh;
+    min-height:400px;
+
+}
+
+.scrolled {
+    background-color: #333333;
+    opacity: 0.8;
+}
+
+/* ======================================================
+Media Queries
+=========================================================*/
+
+@media (max-width: 768px) {
+    #header-container {
+        background-color: #333333;
+    }
+
+    #navbarToggler {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) {
+    #toggleButton {
+        display: none;
+    }
+    #header-container {
+        color: #ffb200;
+        text-decoration: none;
+    }
+}
