@@ -40,6 +40,40 @@ header {
     background-color: #333333;
 }
 
+footer {
+    background-color: #202e31;
+    padding-top: 20px;
+}
+
+footer h5 {
+    color: #f2f2f2;
+}
+
+.fa-location-arrow,
+.fa-phone,
+.fa-envelope,
+.fa-angle-right,
+.fa-facebook-f,
+.fa-twitter,
+.fa-snapchat-ghost {
+    color: #f2f2f2;
+}
+
+#contact-info,
+#opening-hours p {
+    color: #ffb200;
+}
+
+#footer-links ul li a,
+#social-links ul li a {
+    color: #ffb200;
+    text-decoration: none;
+}
+
+.arrow-bullet li ::before {
+
+}
+
 
 /*=====================================
 Change Menu Icon Color
@@ -55,7 +89,8 @@ Media Queries
 
 @media (max-width: 311px) {
     #site-name {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        padding-top: 10px;
     }
 }
 
@@ -64,10 +99,6 @@ Media Queries
         background-color: #333333;
         width: 100%;
     }
-
-
-
-
 }
 
 @media (min-width: 768px) {
@@ -78,5 +109,9 @@ Media Queries
     #header-container {
         color: #ffb200;
         text-decoration: none;
+    }
+
+    #buttonContainer {
+        display: none;
     }
 }
