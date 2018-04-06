@@ -16,7 +16,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <header>
+      <header id="top">
 
       </header>
       <nav>
@@ -152,6 +152,46 @@
                   </div>
               </div>
           </section>
+          <form class="contact p-5" action="index.html" method="post">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <h4 id="contact-title" class="title mb-5 p-1">Contact Us</h4>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="form-group col-12 col-lg-3">
+                          <label for="customername">Name:</label>
+                          <input id="customername"type="text" name="" value="" class="form-control">
+                      </div>
+                      <div class="form-group col-12 col-lg-3">
+                          <label for="email-address">Email address:</label>
+                          <input type="email" class="form-control" id="email-address" placeholder="name@example.com">
+                      </div>
+                      <div class="form-group col-12 col-lg-3">
+                          <label for="phone-number">Phone Number:</label>
+                          <input type="text" class="form-control" id="phone-number" placeholder="555-555-5555">
+                      </div>
+                      <div class="form-group col-12 col-lg-3">
+                          <label for="services">Services</label>
+                          <select class="form-control" id="services">
+                              <option>Design</option>
+                              <option>Design</option>
+                              <option>Design</option>
+                          </select>
+                      </div>
+                      <div class="form-group col-12">
+                          <label for="exampleFormControlTextarea1">Message:</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-lg-3">
+                          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                      </div>
+                  </div>
+              </div>
+          </form>
       </main>
       <footer>
           <div class="container p-4">
@@ -223,6 +263,11 @@
               </div>
           </div>
       </footer>
+      <div class="fixed-bottom">
+          <a href="#top">
+              <i class="fas fa-chevron-circle-up larger-icon float-right"></i>
+          </a>
+      </div>
 
 
 
