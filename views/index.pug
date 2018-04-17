@@ -1,0 +1,103 @@
+extends layout.pug
+
+block content
+    main
+      section
+        #whatwedo.container-fluid
+          .row.p-2
+            .center.col-12.p-2
+              h4.title Our Services
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          .row.p-2
+            .col-12.col-md-6.col-lg-4.p-4
+              .d-flex.flex-row
+                i.fas.fa-wrench
+                h6.pl-2 Pre-Construction Designs
+              p
+                | SolidBuild is large enough to offer the range of services needed, but small enough to deliver projects with personal attention
+            .col-12.col-md-6.col-lg-4.p-4
+              .d-flex.flex-row
+                i.fas.fa-wrench
+                h6.pl-2 Construction Services
+              p
+                | SolidBuild is large enough to offer the range of services needed, but small enough to deliver projects with personal attention
+            .col-12.col-md-6.col-lg-4.p-4
+              .d-flex.flex-row
+                i.fas.fa-wrench
+                h6.pl-2 Construction Services
+              p
+                | SolidBuild is large enough to offer the range of services needed, but small enough to deliver projects with personal attention
+            .col-12.col-md-6.col-lg-4.p-4
+              .d-flex.flex-row
+                i.fas.fa-wrench
+                h6.pl-2 Construction Services
+              p
+                | SolidBuild is large enough to offer the range of services needed, but small enough to deliver projects with personal attention
+            .col-12.col-md-6.col-lg-4.p-4
+              .d-flex.flex-row
+                i.fas.fa-wrench
+                h6.pl-2 Construction Services
+              p
+                | SolidBuild is large enough to offer the range of services needed, but small enough to deliver projects with personal attention
+            .col-12.col-md-6.col-lg-4.p-4
+              .d-flex.flex-row
+                i.fas.fa-wrench
+                h6.pl-2 Construction Services
+              p
+                | SolidBuild is large enough to offer the range of services needed, but small enough to deliver projects with personal attention
+      section
+        #about-container.container-fluid
+          .row.p-4
+            .col-12.col-lg-6
+              img.img-fluid(src='img/hard-hat.png' alt='hard hat')
+            #about-content.col-12.col-lg-6
+              h4.p-1.title About Us
+              h2.p-1 We provide creative conrete designs!
+              h5.p-1 Our company has been in business for over 20 years.
+              p.p-1.title
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              a.btn.btn-primary(href='aboutus.html') Learn More
+          #about-accomplishments.row.p-4
+            .col-12.col-md-6.col-lg-3.p-2.mt-4
+              p 25 Years
+              i.fas.fa-clock.icon-white
+              p Experience
+            .col-12.col-md-6.col-lg-3.p-2.mt-4
+              p 3,500
+              i.fas.fa-check.icon-white
+              p Jobs Completed
+            .col-12.col-md-6.col-lg-3.p-2.mt-4
+              p 45
+              i.fas.fa-check.icon-white
+              p Employees
+            .col-12.col-md-6.col-lg-3.p-2.mt-4
+              p 100%
+              i.fas.fa-check.icon-white
+              p Satisfaction
+      form.contact.p-5(action='index.html' method='post')
+        .container
+          .row
+            .col-12
+              h4#contact-title.title.mb-5.p-1 Contact Us
+          .row
+            .form-group.col-12.col-lg-3
+              label(for='customername') Name:
+              input#customername.form-control(type='text' name='' value='')
+            .form-group.col-12.col-lg-3
+              label(for='email-address') Email address:
+              input#email-address.form-control(type='email' placeholder='name@example.com')
+            .form-group.col-12.col-lg-3
+              label(for='phone-number') Phone Number:
+              input#phone-number.form-control(type='text' placeholder='555-555-5555')
+            .form-group.col-12.col-lg-3
+              label(for='services') Services
+              select#services.form-control
+                option Design
+                option Design
+                option Design
+            .form-group.col-12
+              label(for='exampleFormControlTextarea1') Message:
+              textarea#exampleFormControlTextarea1.form-control(rows='3')
+          .row
+            .col-12.col-lg-3
+              button.btn.btn-primary.mb-2(type='submit') Submit

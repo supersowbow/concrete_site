@@ -1,0 +1,28 @@
+// NAV
+nav
+  // Header Container
+  #header-container.container-fluid.fixed-top.justify-content-md-between
+    .row
+      .col-10.col-md-4.d-flex.flex-row
+        // Logo
+        a(href='index.html')
+          img#logo(src='img/logo.png' alt='construction-logo')
+        // Site Name
+        a#site-name.mt-1.mr-0.pl-1.pr-1(href='index.html') Stamp Concrete
+      #buttonContainer.d-flex.justify-content-end.d-md-none.col-2
+        // Menu Button
+        button#toggleButton.navbar-toggler.float-sm-right(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+      // Menu
+      #navbarTogglerDemo01.collapse.d-md-flex.flex-md-row.col-12.col-md-7.justify-content-md-end
+        ul#menu.nav.d-flex.flex-column.flex-md-row
+          li.nav-item
+            a.nav-link(href='index.html') Home
+          li.nav-item
+            a.nav-link(href='about.html') About Us
+          li.nav-item
+            a.nav-link(href='index.html') Services
+          li.nav-item
+            a.nav-link(href='index.html') Gallery
+          li.nav-item
+            a.nav-link(href='index.html') Contact
