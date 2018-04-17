@@ -1,0 +1,11 @@
+{
+  "name": "concrete",
+  "version": "1.0.0",
+  "description": "Stamp Concrete website prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ky-codes",
+  "license": "ISC"
+}
