@@ -6,6 +6,11 @@ const app = express();
 // View Engine
 app.set('view engine', 'pug');
 
+// Serve Static Files
+app.use(express.static('css'));
+app.use(express.static('img'));
+app.use(express.static('js'));
+
 // Routes
 app.get('/', (request, response) => {
     response.render('index');
