@@ -6,14 +6,11 @@ const app = express();
 // View Engine
 app.set('view engine', 'pug');
 
-// Routes
-app.get('/', (request, response) => {
-    response.render('index');
-});
+const mainRoutes = require('./routes');
+const adminRoute = require('./routes/admin');
 
-app.get('/about', (request, response) => {
-    response.render('about');
-});
+app.use(mainRoutes);
+app.use('/admin', adminRoute);
 
 // Server
 app.listen(3000, () => {
