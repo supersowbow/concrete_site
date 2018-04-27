@@ -1,25 +1,19 @@
 const express = require('express');
 const pug = require('pug');
+const path = require('path');
 
 const app = express();
 
 // View Engine
 app.set('view engine', 'pug');
 
-<<<<<<< HEAD
-// Serve Static Files
-app.use(express.static('css'));
-app.use(express.static('img'));
-app.use(express.static('js'));
+// Static Files
+// app.use(express.static(path.join(__dirname,'pulbic')));
+app.use('/static', express.static('public'));
 
-// Routes
-app.get('/', (request, response) => {
-    response.render('index');
-});
-=======
 const mainRoutes = require('./routes');
 const adminRoute = require('./routes/admin');
->>>>>>> master
+
 
 app.use(mainRoutes);
 app.use('/admin', adminRoute);
