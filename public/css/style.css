@@ -25,7 +25,7 @@ li {
 }
 
 header {
-    background-image: url(/static/public/img/construction-night.png);
+    background-image: url(/static/img/construction-night.png);
     background-size: cover;
     height:100vh;
     min-height:400px;
