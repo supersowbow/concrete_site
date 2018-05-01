@@ -181,6 +181,24 @@ Services Page
     height: 400px;
     background-size: cover;
 }
+/*=====================================
+Gallery Page
+=======================================*/
+#gallery-jumbo {
+    background: linear-gradient(#464646, transparent 90%),
+    #464646 url(/static/img/con1.jpg) no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+/*=====================================
+Contact Page
+=======================================*/
+#contact-jumbo {
+    background: linear-gradient(#464646, transparent 90%),
+    #464646 url(/static/img/con1.jpg) no-repeat;
+    height: 400px;
+    background-size: cover;
+}
 
 
 
