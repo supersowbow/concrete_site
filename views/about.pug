@@ -5,7 +5,88 @@ block navcontent
 
 block content
     // About Content
-    // About Jumbotron
-    // About Stamp Concrete
-    // About Founder
-    // Credentials
+    header
+        // About Jumbotron
+        .row
+          #jumbo.container-fluid.pl-0.pr-0
+              #about-jumbo.jumbotron.jumbotron-fluid
+                  .container
+                      h1.display-4.text-center.orange About Us
+                      hr#jumbotron-hr
+    
+    main
+      .container-fluid
+        .row
+            .container.p-3.mt-4.mb-4       
+                // About Stamp Concrete
+                h2.title.text-center.p-2 Who We Are
+                .row.d-flex.justify-content-center
+                  // Stamp Concrete Logo
+                  .col-12.col-md-5.p-0
+                    img.p-3.mx-auto.d-block(src='static/img/hat.png', alt='founder-photo')
+                  // About Us paragraph
+                  .col-12.col-md-5.mt-2
+                    p.p-3
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        
+        // Why Choose Us
+        .row.mt-4.mb-4
+            #why-us.container-fluid.p-5
+                h2.title.text-center.p-2 Why Choose Us
+                p.p-2.text-center Lorem quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                .row.d-flex.justify-content-center
+                    .col-12.col-md-2.m-2.d-flex.flex-column
+                        p.p-1.text-center Lorem ipsum dolor sit amet, consectetur
+                        .text-center
+                            i.fas.fa-wrench          
+                    .col-12.col-md-2.m-2.d-flex.flex-column
+                        p.p-1.text-center Lorem ipsum dolor sit amet, consectetur
+                        .text-center
+                            i.fas.fa-wrench
+                    .col-12.col-md-2.m-2.d-flex.flex-column
+                        p.p-1.text-center Lorem ipsum dolor sit amet, consectetur
+                        .text-center
+                            i.fas.fa-wrench
+                    .col-12.col-md-2.m-2.d-flex.flex-column
+                        p.p-1.text-center Lorem ipsum dolor sit amet, consectetur
+                        .text-center
+                            i.fas.fa-wrench
+        
+        // About Founder
+        .row
+            .container.p-3.m-4
+                h2.title.text-center.p-2 Our Founder
+                .row.d-flex.justify-content-end
+                  // About Founder
+                  .col-12.col-md-5.order-1.order-md-2.p-0
+                    img.p-3.mx-auto.d-block(src='static/img/hat.png', alt='founder-photo')
+                  // Image of Founder
+                  .col-12.col-md-5.order-2.order-md-1.mt-2
+                    p.p-3
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        
+        // Credentials
+        //#credentials.row.p-30.text-center
+          .col-12.p-3
+              h4.title Credentials
+          .col-12.col-md-6.col-lg-3.p-3
+              h5 Credentials
+          .col-12.col-md-6.col-lg-3.p-3
+              h5 Credentials
+          .col-12.col-md-6.col-lg-3.p-3
+              h5 Credentials
+          .col-12.col-md-6.col-lg-3.p-3
+              h5 Credentials
+              
+        // Mission Statement
+        #mission.row.d-flex.justify-content-center.p-5
+          .col-12.col-md-5
+              h2.title.text-center.orange Our Mission
+              p.p-3.orange 
+                | Our mission is to Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+              .d-flex.flex-row.justify-content-between
+                  h5.orange.bold
+                      | We are dependable.
+                  h5.orange.bold
+                      | We are affordable.
+              h4.text-center.p-3.orange Contact Us

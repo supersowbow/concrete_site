@@ -24,7 +24,7 @@ li {
     height: 50px;
 }
 
-header {
+#index-header {
     background-image: url(/static/img/construction-night.png);
     background-size: cover;
     height:100vh;
@@ -131,6 +131,58 @@ footer h5 {
 .arrow-bullet li ::before {
 
 }
+/*=====================================
+About Us Page
+=======================================*/
+#about-jumbo {
+    background: linear-gradient(#464646, transparent 90%),
+    #464646 url(/static/img/con2.jpg) no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+#jumbotron-hr {
+    width: 30%;
+    height: 1px;
+    background-color: #ffb719;
+}
+
+#credentials,
+#mission,
+#why-us {
+    background-color: #f2f2f2;
+}
+
+#mission {
+    background-image: url(/static/img/con4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.orange {
+    color: #ffb719;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fas.fa-wrench {
+    text-align: center;
+}
+/*=====================================
+Services Page
+=======================================*/
+#services-jumbo {
+    background: linear-gradient(#464646, transparent 90%),
+    #464646 url(/static/img/con1.jpg) no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+
 
 
 /*=====================================
@@ -144,6 +196,12 @@ Media Queries
     #site-name {
         font-size: 1rem;
         padding-top: 10px;
+    }
+}
+
+@media (max-width: 578px) {
+    #jumbo {
+        padding-top: 50px;
     }
 }
 
