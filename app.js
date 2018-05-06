@@ -19,6 +19,4 @@ app.use(mainRoutes);
 app.use('/admin', adminRoute);
 
 // Server
-app.listen(3000, () => {
-    console.log("Server is running...");
-});
+app.listen(process.env.PORT || 3000);
