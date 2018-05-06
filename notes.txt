@@ -27,3 +27,12 @@ Menu: Home, About Us, Services, Gallery, Contact
  </nav><!-- End Menu -->
 =========================
 when screen gets >768px, add class nav to #navbarTogglerDemo1 and remove class "nav" from #menu
+
+
+<!--vertical align on parent using my-auto, horizontal align on self mx-auto-->
+
+<div class="row h-100">
+<div class="col-sm-12 my-auto">
+    <div class="card card-block w-25 mx-auto">I am Groot.</div>
+</div>
+</div>
