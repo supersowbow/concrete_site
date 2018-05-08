@@ -181,6 +181,31 @@ Services Page
     height: 400px;
     background-size: cover;
 }
+
+.fixed-width {
+    width: 100px;
+}
+
+#whatwedo-container h5 {
+    font-weight: bold;
+}
+
+#pricing {
+    background-color: green;
+}
+
+#pricing h2,
+#contact-us h2 {
+    color: white;
+}
+
+#contact-us {
+    background-color: #f2f2f2;
+}
+
+#contact-us h2 {
+    color: green;
+}
 /*=====================================
 Gallery Page
 =======================================*/

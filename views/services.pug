@@ -14,6 +14,59 @@ block content
                     hr#jumbotron-hr.align-middle
     main
         .container-fluid
-            .row
-                .container.p-5
-                    h1.text-center Content Coming Soon.
+            // What We Offer
+            .row.p-4
+                .col-12.text-center
+                    h2.p-2 What We Offer
+                #whatwedo-container.container-fluid
+                    .row    
+                        .col-12.col-md-6.d-flex.flex-column.flex-md-row.justify-content-center
+                            .order-2.order-md-1.col-md-10
+                                h5 Renovations
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            .align-self-center.icon-container.order-1.order-md-2.col-md-1.mx-auto.fixed-width.fa-2x
+                                span.fa-layers.fa-fw
+                                    i.fas.fa-circle(style='color:green')
+                                    i.fa-inverse.fas.fa-wrench(data-fa-transform='shrink-6')
+                        .col-12.col-md-6.d-flex.flex-column.flex-md-row.justify-content-center
+                            .order-2.order-md-1.col-md-10
+                                h5 Consulting
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            .align-self-center.icon-container.order-1.order-md-2.col-md-1.mx-auto.fixed-width.fa-2x
+                                span.fa-layers.fa-fw
+                                    i.fas.fa-circle(style='color:green')
+                                    i.fa-inverse.fas.fa-wrench(data-fa-transform='shrink-6')                      
+                        
+                    .row
+                        .col-12.col-md-6.d-flex.flex-column.flex-md-row.justify-content-center
+                            .order-2.order-md-1.col-md-10
+                                h5 Planning
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            .align-self-center.icon-container.order-1.order-md-2.col-md-1.mx-auto.fixed-width.fa-2x
+                                span.fa-layers.fa-fw
+                                    i.fas.fa-circle(style='color:green')
+                                    i.fa-inverse.fas.fa-wrench(data-fa-transform='shrink-6')
+                        .col-12.col-md-6.d-flex.flex-column.flex-md-row.justify-content-center
+                            .order-2.order-md-1.col-md-10
+                                h5 Design
+                                p
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            .align-self-center.icon-container.order-1.order-md-2.col-md-1.mx-auto.fixed-width.fa-2x
+                                span.fa-layers.fa-fw
+                                    i.fas.fa-circle(style='color:green')
+                                    i.fa-inverse.fas.fa-wrench(data-fa-transform='shrink-6')
+                    
+            // Pricing
+            #pricing.row.p-5
+                .col-12.text-center
+                    h2 We have affordable pricing.
+            
+            // Contact Us
+            #contact-us.row.p-5
+                .col-12.text-center
+                    h2.p-2 Let us create for you.
+                    a(href='./contact').m-2
+                        button.btn.btn-success(type='button') Contact
