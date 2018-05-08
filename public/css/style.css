@@ -11,7 +11,7 @@ li {
 }
 
 #header-container a {
-    color: #ffb200;
+    color: white;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ li {
 }
 
 .scrolled {
-    background-color: #333333;
+    background-color: green;
 }
 
 .title {
@@ -75,13 +75,13 @@ What We Do - Our Services
 About Us
 ===========================================*/
 #about-accomplishments {
-    background-color: #354755;
+    background-color: green;
     font-size: 35px;
     text-align: center;
 }
 
 #about-accomplishments p {
-    color: #fdb817;
+    color: white;
 }
 
 .icon-white {
@@ -119,12 +119,12 @@ footer h5 {
 
 #contact-info,
 #opening-hours p {
-    color: #ffb200;
+    color: green;
 }
 
 #footer-links ul li a,
 #social-links ul li a {
-    color: #ffb200;
+    color: green;
     text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ About Us Page
 #jumbotron-hr {
     width: 30%;
     height: 1px;
-    background-color: #ffb719;
+    background-color: white;
 }
 
 #credentials,
@@ -158,11 +158,12 @@ About Us Page
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color: white;
 
 }
 
-.orange {
-    color: #ffb719;
+.green {
+    color: green;
 }
 
 .bold {
@@ -177,7 +178,7 @@ Services Page
 =======================================*/
 #services-jumbo {
     background: linear-gradient(#464646, transparent 90%),
-    #464646 url(/static/img/con1.jpg) no-repeat;
+    #464646 url(/static/img/con2.jpg) no-repeat;
     height: 400px;
     background-size: cover;
 }
@@ -211,7 +212,7 @@ Gallery Page
 =======================================*/
 #gallery-jumbo {
     background: linear-gradient(#464646, transparent 90%),
-    #464646 url(/static/img/con1.jpg) no-repeat;
+    #464646 url(/static/img/con2.jpg) no-repeat;
     height: 400px;
     background-size: cover;
 }
@@ -220,7 +221,7 @@ Contact Page
 =======================================*/
 #contact-jumbo {
     background: linear-gradient(#464646, transparent 90%),
-    #464646 url(/static/img/con1.jpg) no-repeat;
+    #464646 url(/static/img/con2.jpg) no-repeat;
     height: 400px;
     background-size: cover;
 }

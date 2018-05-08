@@ -10,7 +10,7 @@ block content
         .container-fluid.pl-0.pr-0
             #about-jumbo.row.h-200 
                 .col-12.text-center.my-auto
-                    h1.display-4.orange.align-middle About Us
+                    h1.display-4.green.align-middle About Us
                     hr#jumbotron-hr.align-middle
                             
     main
@@ -67,12 +67,14 @@ block content
             // Mission Statement
             #mission.row.d-flex.justify-content-center.p-5
                 .col-12.col-md-5
-                    h2.title.text-center.orange Our Mission
-                    p.p-3.orange 
+                    h2.title.text-center Our Mission
+                    p.p-3.text-center
                         | Our mission is to Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                     .d-flex.flex-column.flex-sm-row.justify-content-between.text-center
-                        h5.orange.bold.p-1
+                        h5.bold.p-1
                             | We are dependable.
-                        h5.orange.bold.p-1
+                        h5.bold.p-1
                             | We are affordable.
-                    h4.text-center.p-3.orange Contact Us
+                    .col-12.d-flex.justify-content-center
+                        a(href='./contact').m-2
+                            button.btn.btn-success(type='button') Contact
